@@ -1,0 +1,101 @@
+html{
+    font-size: calc(1vw + 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color: whitesmoke;
+}
+header{
+    padding: 0 13vw 0 13vw;
+}
+nav{
+    display: flex;
+    background-color: #3B8686;
+    padding: 2vw;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 1vw;
+    width: 4vw;
+    margin: 0 0 0 11vw;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 11vw 0 0;
+}
+
+nav ul li a{
+    margin: 0 1vw 0 1vw;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.now{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    padding: 0.3vw 0 0.3vw ;
+    align-self: center;
+    transition: .5s ease-in-out;
+    
+}
+.now:hover{
+    background-color: rgb(255, 255, 255);
+    transition: .5s ease-in-out;    
+}
+section.banner{
+    display: flex;
+   /* background-image: url(../src/back-banner.png) ; */
+
+    /*background-size: cover;*/
+    background: linear-gradient(rgba(121, 189, 154, .3),rgba(121, 189, 154, .3)), url(../src/back-banner.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    height: 90vh;
+    padding: 30vw;
+    justify-content: start;
+    align-items: end;
+    padding: 0 10vw 0 10vw;
+}
+
+section.banner h2{
+    line-height: normal;
+    margin: 0 0 7vw 3vw;
+    font-size: 5rem;
+    color: white;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: max-content;
+    width: max-content;
+    width: 40%;
+}
+section.informacoes{
+    display: flex;
+    padding: 0 13vw 0 13vw;
+    margin: 10vw 0 10vw 0;
+}
+section.informacoes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+section.informacoes ul li ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: c;
+}
+section.informacoes ul li ul li{
+    margin: 2vw 3vw 0vw 3vw ;
+}
+.informacoes p{
+    text-align: center;
+}
+.informacoes button{
+    background-color: #3B8686;
+    padding: .5vw 2vw .5vw 2vw;
+    color: white;
+    border: none;
+}
