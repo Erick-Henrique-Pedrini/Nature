@@ -52,7 +52,7 @@ section.banner{
 
     /*background-size: cover;*/
     background: linear-gradient(rgba(121, 189, 154, .3),rgba(121, 189, 154, .3)), url(../src/back-banner.png) no-repeat center center;
-    background-size: 100% auto, 100% auto;
+    background-size: 100% auto, cover;
     height: 90vh;
     padding: 30vw;
     justify-content: start;
@@ -99,3 +99,94 @@ section.informacoes ul li ul li{
     color: white;
     border: none;
 }
+.informacoes span{
+    font-size: 4vw;
+    color: #3B8686;
+}
+section.clients{
+    background: linear-gradient(rgba(121, 189, 154, .3),rgba(121, 189, 154, .3)),url(../src/back-numeros\(1\).png) no-repeat center center;
+    background-size: cover;
+    padding: 4vw 0 4vw 0;
+}
+section.clients ul{
+    display: flex;
+    justify-content: space-around;
+}
+section.clients h2{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    
+}
+section.clients ul li ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.clients span{
+    font-size: 4vw;
+    color: white;
+}
+section.possibilidades{
+    display: flex;
+    padding: 4vw 0 4vw;
+}
+.possibilidades ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.possibilidades ul li ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.possibilidades p{
+  text-align: start;
+    width: 20vw;
+    margin: 2vw 10vw 2vw 10vw;
+}
+.possibilidades button{
+    color: white;
+    background-color: #0B486B;
+    width: 180px;
+    height: 42px;
+    margin: 0 0.2vw 0 0.2vw;
+    border: none;
+}
+.left{
+    margin: 0 10vw 0 20vw ;
+    width: 20vw;
+}
+.possibilidades h2{
+    color: #0B486B;
+    font-size: 1.74218rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3B8686;
+    padding: 2vw 0 2vw 0;
+}
+.esp{
+    display: flex;
+    flex-direction: row;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+footer span{
+    color:  white;
+    margin: 0 0.1vw 1vw 0.1vw;
+    font-size: 1.3rem;
+}
+footer p{
+    color: white;
+    
+}
+    
